@@ -60,11 +60,7 @@ public class contactServlet extends HttpServlet {
                         result = pstmt.executeUpdate();
                         if (result > 0) {
                             response.sendRedirect("contact.jsp"); 
-//                            out.println("<script>"
-//                                    + "alert('Terima kasih');"
-//                                    + "document.location='contact.jsp';"
-//                                    + "</script>"
-//                            );
+
                         }
 //                        break;                  
 //                }
